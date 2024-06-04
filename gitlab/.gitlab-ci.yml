@@ -1,0 +1,10 @@
+default:
+  image: ubuntu-latest
+  stages:
+    - test
+
+test:
+  variables:
+    GIT_CHECKOUT: "true"
+  script:
+    - echo "success"

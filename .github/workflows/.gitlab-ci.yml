@@ -1,8 +1,0 @@
-default:
-    image: ubuntu-latest
-  
-
-build-job:
-    stage: build
-    script:
-      - echo "success"
