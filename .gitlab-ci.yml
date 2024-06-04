@@ -4,7 +4,9 @@ default:
     - test
 
 test:
+  stage: test
   variables:
     GIT_CHECKOUT: "true"
   script:
     - echo "success"
+
